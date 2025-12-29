@@ -34,14 +34,14 @@ White goes first.
 
 Each turn you can chose to do up to two total actions:
 
-![illustration](move-attack.png)
 - A standard Chess move of a chosen piece you control.
+![illustration](move-attack.png)
 
-![illustration](move-build.png)
 - Place a wall token immediately adjacent to any piece you control - capturing any piece on that square.
+![illustration](move-build.png)
 
-![illustration](move-destroy.png)
 - Destroy a wall token that is immediately adjacent to any piece you control.
+![illustration](move-destroy.png)
 
 Each piece can only move once, and special attack once per turn.
 
