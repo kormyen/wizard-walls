@@ -46,7 +46,7 @@ Each turn the active player takes up to two actions from four choices:
 
 ![an illustration showing an attack move](attack.png)
 
-2. **Conjure a wall** token from your hand immediately adjacent to any wizard(s) you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You can place a wall token on an existing wall token. Elect which wizard conjured the wall.
+2. **Conjure a wall** token from your hand immediately adjacent to any wizard(s) you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You cannot place a wall token on an existing wall token. Elect which wizard conjured the wall.
 
 ![an illustration showing wall conjuration](conjure.png)
 
