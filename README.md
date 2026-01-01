@@ -20,14 +20,14 @@ Each player commands a Bishop Wizard, Knight Wizard, and Rook Wizard. On every t
 - 1x Black Rook.
 - 16x wall tokens (use standard Chess pawns if need be).
 
-![a hero illustration showing a three wizard team](illustration.png)
+![a hero illustration showing a three wizard team](hero.png)
 
 ## 🏗️ Setup
 
 - White player places 3 wall tokens anywhere within middle 4 rows.
 - Black player places 3 wall tokens anywhere within middle 4 rows.
-- White player places their Biship, Knight and Rook anywhere within their first 2 rows.
-- Black player places their Biship, Knight and Rook anywhere within their first 2 rows.
+- White player places their Bishop, Knight and Rook anywhere within their first 2 rows.
+- Black player places their Bishop, Knight and Rook anywhere within their first 2 rows.
 - Each player starts with 5 wall tokens in their hand.
 
 ## 🕹️ Play
@@ -38,21 +38,21 @@ White goes first.
 
 Each turn the active player takes up to two actions from four choices:
 
-1. **Move a wizard** that you control to an empty square (without a wall token). This is a standard Chess move that depends on if the chosen wizard is a Biship (diagonal), Knight (L shape) or Rook (vertical or horiztonal). The Knight can jump over walls like it can jump standard Chess pieces, the Biship and Rook cannot jump over walls.
+1. **Move a wizard** that you control to an empty square (without a wall token). This is a standard Chess move that depends on if the chosen wizard is a Bishop (diagonal), Knight (L shape) or Rook (vertical or horiztonal). The Knight can jump over walls like it can jump standard Chess pieces, the Bishop and Rook cannot jump over walls.
 
-![an illustration showing an attack move](move-attack.png)
+![an illustration showing an attack move](attack.png)
 
 2. **Conjure a wall** token from your hand immediately adjacent to any wizard(s) you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You can place a wall token on an existing wall token. Elect which wizard conjured the wall.
 
-![an illustration showing wall conjuration](move-build.png)
+![an illustration showing wall conjuration](conjure.png)
 
 3.  **Destroy a wall** token that is immediately adjacent to any wizard(s) you control - take the single selected wall token into your hand. Elect which wizard destroyed the wall.
 
-![an illustration showing wall destruction](move-destroy.png)
+![an illustration showing wall destruction](destroy.png)
 
 4. **Resurrect a wizard** of yours that was previously destroyed - placing it in a any square that is immediately adjacent to TWO other wizards you control - destroying any wizard or wall token(s) on that square.
 
-![an illustration showing resurection](move-resurect.png)
+![an illustration showing resurection](resurect.png)
 
 Each wizard can only move once per turn.
 
@@ -70,7 +70,7 @@ Only one wizard can ever be resurrected per turn.
 4. Build a wall with Bishop, move Rook.
 5. Destory a wall with Knight, move Rook.
 6. Destory a wall with Knight, build a wall with Rook.
-7. Move Rook next to Knight, resurrect Biship.
+7. Move Rook next to Knight, resurrect Bishop.
 ```
 
 ## 👑 Win
@@ -92,3 +92,5 @@ Tournament conditions require a strict maximum turn length.
 If a player's time runs out then their turn is over, even if they have not completed their two actions.
 
 Sample mobile friendly turn timer webapp: https://v0-board-game-timer-rho.vercel.app/
+
+![an illustration showing rest](rest.png)
