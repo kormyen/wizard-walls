@@ -50,7 +50,7 @@ Each turn the active player takes up to two actions from four choices:
 
 ![an illustration showing wall destruction](destroy.png)
 
-4. **Resurrect a wizard** of yours that was previously destroyed - placing it in a any square that is immediately adjacent to TWO other wizards you control - destroying any wizard or wall token(s) on that square.
+4. **Resurrect a wizard** of yours that was previously destroyed - placing it in any square that is immediately adjacent to TWO other wizards you control - destroying any wizard or wall token(s) on that square - take any destroyed wall tokens into your hand.
 
 ![an illustration showing resurection](resurect.png)
 
