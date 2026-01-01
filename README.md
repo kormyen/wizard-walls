@@ -10,6 +10,10 @@
 
 Each player commands a Bishop Wizard, Knight Wizard, and Rook Wizard. On every turn, players choose how to spend two actions; traditional Chess moves, placing walls, destroying walls or resurecting wizards.
 
+## ❤️ Intent
+
+The design intent of this game is to be a: fun, simple to learn, fast paced game that can be played with an existing standard Chess set.
+
 ## ⚠️ Requires
 - 1x Chess board.
 - 1x White bishop.
