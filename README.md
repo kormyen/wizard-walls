@@ -1,58 +1,94 @@
-# Clashline (Chess variant)
+# 🧙‍♂️🧱 Wizard Walls (Alt Chess)
 
-![logo](logo.png)
+> Are the walls are made of... wizards?
 
-Clashline is a tactical variant of chess that blends classic movement with arena-style board control. Each player commands a compact force: a bishop, knight, and castle — while shaping the battlefield using wall tokens that block, funnel, or open paths. On every turn, players choose how to spend two actions, balancing traditional moves with special attacks that place or destroy nearby walls. With knights able to slip through obstacles and victory achieved by total immobilization or elimination, Clashline rewards positioning, tempo, and creative use of terrain over rote openings.
+**✨ Conjuration, destruction, and resurrection deathmatch.**
 
-## Requirements:
-- Standard Chess board.
-- White bishop, knight, castle.
-- Black bishop, knight, castle.
-- 20x Chess board grid sized tokens.
+*Bend the arena, break your enemies, and bring the dead back to fight.*
 
-![illustration](illustration.png)
+## 🗣️ Explain
 
-## Setup
+Each player commands a Bishop Wizard, Knight Wizard, and Rook Wizard. On every turn, players choose how to spend two actions; traditional Chess moves, placing walls, destroying walls or resurecting wizards.
 
-#### Each players starts with:
-- Bishop
-- Knight
-- Castle
-- 3 tokens (walls)
+## ⚠️ Requires
+- 1x Chess board.
+- 1x White bishop.
+- 1x White Knight.
+- 1x White Rook.
+- 1x Black Bishop.
+- 1x Black Knight.
+- 1x Black Rook.
+- 16x wall tokens (use standard Chess pawns if need be).
 
-#### Arena creation:
-- White player places 3 tokens anywhere within middle 4 rows.
-- Black player places 3 tokens anywhere within middle 4 rows.
-- White player places their biship, knight and castle anywhere within their first 2 rows.
-- Black player places ttheir biship, knight and castle anywhere within their first 2 rows.
+![a hero illustration showing a three wizard team](illustration.png)
 
-#### Play begins:
+## 🏗️ Setup
+
+- White player places 3 wall tokens anywhere within middle 4 rows.
+- Black player places 3 wall tokens anywhere within middle 4 rows.
+- White player places their Biship, Knight and Rook anywhere within their first 2 rows.
+- Black player places their Biship, Knight and Rook anywhere within their first 2 rows.
+- Each player starts with 5 wall tokens in their hand.
+
+## 🕹️ Play
 
 Players take turns. 
 
 White goes first.
 
-Each turn you can chose to do up to two total actions:
+Each turn the active player takes up to two actions from four choices:
 
-- A standard Chess move of a chosen piece you control.
-![illustration](move-attack.png)
+1. **Move a wizard** that you control to an empty square (without a wall token). This is a standard Chess move that depends on if the chosen wizard is a Biship (diagonal), Knight (L shape) or Rook (vertical or horiztonal). The Knight can jump over walls like it can jump standard Chess pieces, the Biship and Rook cannot jump over walls.
 
-- Place a wall token immediately adjacent to any piece you control - capturing any piece on that square.
-![illustration](move-build.png)
+![an illustration showing an attack move](move-attack.png)
 
-- Destroy a wall token that is immediately adjacent to any piece you control.
-![illustration](move-destroy.png)
+2. **Conjure a wall** token from your hand immediately adjacent to any wizard(s) you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You can place a wall token on an existing wall token. Elect which wizard conjured the wall.
 
-Each piece can only move once, and special attack once per turn.
+![an illustration showing wall conjuration](move-build.png)
 
-#### Examples of possible turns:
-- Move knight, move castle.
-- Move knight, special attack with knight.
-- Special attack with bishop, move castle.
-- Special attack with knight, special attack with castle.
+3.  **Destroy a wall** token that is immediately adjacent to any wizard(s) you control - take the single selected wall token into your hand. Elect which wizard destroyed the wall.
 
-Only the knight can move through tokens (walls).
+![an illustration showing wall destruction](move-destroy.png)
 
-#### Play ends:
+4. **Resurrect a wizard** of yours that was previously destroyed - placing it in a any square that is immediately adjacent to TWO other wizards you control - destroying any wizard or wall token(s) on that square.
 
-The win condition is when one player has no pieces, cannot move or forfiets. 
+![an illustration showing resurection](move-resurect.png)
+
+Each wizard can only move once per turn.
+
+Each wizard can only conjure a wall once per turn.
+
+Each wizard can only destroy a wall once per turn.
+
+Only one wizard can ever be resurrected per turn.
+
+#### Examples valid turns:
+```
+1. Move Knight, move Rook.
+2. Move Knight, build a wall with Knight.
+3. Build a wall with Rook, move the Rook.
+4. Build a wall with Bishop, move Rook.
+5. Destory a wall with Knight, move Rook.
+6. Destory a wall with Knight, build a wall with Rook.
+7. Move Rook next to Knight, resurrect Biship.
+```
+
+## 👑 Win
+
+A point is gained for each Wizard destroyed. 
+
+The first player to three points wins.
+
+## 🕒 Draw
+
+Like standard Chess **threefold repetition** allows a player to claim a draw if the exact same board position occurs three times, with the same player to move. It prevents endless games by ending the match when no real progress is made. A player must choose to claim the draw. 
+
+## ⏳ Time
+
+A strict maximum turn length can be enforced if both players agree. 
+
+Tournament conditions require a strict maximum turn length.
+
+If a player's time runs out then their turn is over, even if they have not completed their two actions.
+
+Sample mobile friendly turn timer webapp: https://v0-board-game-timer-rho.vercel.app/
