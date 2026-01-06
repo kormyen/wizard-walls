@@ -144,6 +144,5 @@ As per **Wizard Walls Basic Rules** above.
 
 As per **Wizard Walls Basic Rules** above.
 
-# Future Improvement Idea
-- Maybe (referencing Chinese Chess' "Palace") player's have static "Palace" walls that are the true target to win. This tries to avoid the current poor situation when one player only has 1 piece (highly likely that they should loose) but because these rules make pieces quite dangerous then the game drags on much longer than you'd expect. This would remove the points counting annoyance also.
-- Maybe (referencing Chinese Chess' "River") player's cannot build walls in the center two rows.
+# Future Iteration Idea
+- Maybe (referencing Chinese Chess' "Palace") player's have static "Palace" walls that are the true target to win. This tries to avoid the current poor situation when one player only has 1 piece (highly likely that they should loose) but because these rules make pieces quite dangerous then the game drags on much longer than you'd expect. This would remove the points counting annoyance also. Needs proper exploration/play testing - allows for suicide attacks. Would need more walls than player pieces but not enough free tokens in default chess set.
