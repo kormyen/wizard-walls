@@ -56,7 +56,7 @@ Each turn the active player takes up to two actions from four choices:
 
 ![an illustration showing wall destruction](destroy.png)
 
-4. **Resurrect a wizard** of yours that was previously destroyed - placing it in any square that is immediately adjacent to TWO other wizards you control - destroying any wizard or wall token(s) on that square - take any destroyed wall tokens into your hand.
+4. **Resurrect a wizard** of yours that was previously destroyed - placing it in any square that is immediately adjacent to any wizard you control - destroying any wizard or wall token(s) on that square - take any destroyed wall tokens into your hand.
 
 ![an illustration showing resurection](resurect.png)
 
@@ -66,7 +66,7 @@ Each wizard can only conjure a wall once per turn.
 
 Each wizard can only destroy a wall once per turn.
 
-Only one wizard can ever be resurrected per turn.
+Only one wizard can be resurrected per turn.
 
 #### Examples valid turns:
 ```
@@ -104,45 +104,3 @@ If a player's time runs out then their turn is over, even if they have not compl
 Sample mobile friendly turn timer webapp: https://v0-board-game-timer-rho.vercel.app/
 
 ![an illustration showing rest](rest.png)
-
----
-
-# Wizard Walls Full
-
-## ⚠️ Requires
-- 1x standard Chess set with all pieces.
-- 16x wall tokens (plastic/wooden/paper tokens).
-
-## 🏗️ Setup
-
-- White player places 3 wall tokens anywhere within middle 4 rows.
-- Black player places 3 wall tokens anywhere within middle 4 rows.
-- **The White player chooses their team spending 11 points.
--- Pawns cost 1 point. Maximum of 8 Pawns. They move in any direction like a King moves in a standard Chess game. They cannot conjure walls, destroy walls or resurect Wizards.
--- Bishop cost 3 points. Maximum of 2 Bishops. They move diagonally as Bishop moves in a standard Chess game. They can conjure walls, destroy walls and resurect Wizards.
--- Knight cost 3 points. Maximum of 2 Bishops. They move in an L shape as a Knight moves in a standard Chess game.  They can conjure walls, destroy walls and resurect Wizards.
--- Rook costs 5 points. Maximum of 2 Rooks. They move horizontall and verically as a Rook moves in a standard Chess game. They can conjure walls, destroy walls and resurect Wizards.
--- Queen costs 9 points. Maximum of 1 Queen. They move horizonstall, vertically and diagonally as a Queen moves in a standard Chess game. They can conjure walls, destroy walls and resurect Wizards.**
-- **White player places their full chosen Wizard team anywhere within their first 2 rows.**
-- **The Black player chooses their team spending 11 points.**
-- **Black player places their full chosen Wizard team anywhere within their first 2 rows.**
-- Each player starts with 5 wall tokens in their hand.
-
-## 🕹️ Play
-
-As per **Wizard Walls Basic Rules** above.
-
-## 👑 Win
-
-As per **Wizard Walls Basic Rules** above.
-
-## 🕒 Draw
-
-As per **Wizard Walls Basic Rules** above.
-
-## ⏳ Time
-
-As per **Wizard Walls Basic Rules** above.
-
-# Future Iteration Idea
-- Maybe (referencing Chinese Chess' "Palace") player's have static "Palace" walls that are the true target to win. This tries to avoid the current poor situation when one player only has 1 piece (highly likely that they should loose) but because these rules make pieces quite dangerous then the game drags on much longer than you'd expect. This would remove the points counting annoyance also. Needs proper exploration/play testing - allows for suicide attacks. Would need more walls than player pieces but not enough free tokens in default chess set.
