@@ -48,25 +48,25 @@ Each turn the active player takes up to two actions from four choices:
 
 ![an illustration showing an attack move](attack.png)
 
-2. **Conjure a wall** token from your hand immediately adjacent to any wizard(s) you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You cannot place a wall token on an existing wall token. Elect which wizard conjured the wall.
+2. **Conjure a wall** token from your hand immediately adjacent to a chosen wizard you control - killing any wizard on that square. If you have no remaining wall tokens in your hand then you cannot conjure a wall. You cannot place a wall token on an existing wall token. The wall must be placed adjacent to the chosen wizard - they are casting the conjure wall spell.
 
 ![an illustration showing wall conjuration](conjure.png)
 
-3.  **Destroy a wall** token that is immediately adjacent to any wizard(s) you control - take the single selected wall token into your hand. Elect which wizard destroyed the wall.
+3.  **Destroy a wall** token that is immediately adjacent to a chosen wizard you control - take the single selected wall token into your hand. The destroyed wall must be adjacent to the chosen wizard - they are casting the destroy wall spell.
 
 ![an illustration showing wall destruction](destroy.png)
 
-4. **Resurrect a wizard** of yours that was previously destroyed - placing it in any square that is immediately adjacent to any wizard you control - destroying any wizard or wall token(s) on that square - take any destroyed wall tokens into your hand.
+4. **Resurrect a wizard** of yours that was previously destroyed - placing it in any square that is immediately adjacent to a chosen wizard you control - destroying any wizard or wall token(s) on that square - take any destroyed wall tokens into your hand. The resurrected wizard must be adjacent to the chosen wizard - they are casting the resurrect spell.
 
 ![an illustration showing resurection](resurect.png)
 
 Each wizard can only move once per turn.
 
-Each wizard can only conjure a wall once per turn.
+Each wizard can only conjure a single wall once per turn.
 
-Each wizard can only destroy a wall once per turn.
+Each wizard can only destroy a single wall once per turn.
 
-Only one wizard can be resurrected per turn.
+Each wizard can only resurrect a single wizard per turn.
 
 #### Examples valid turns:
 ```
